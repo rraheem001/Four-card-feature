@@ -1,0 +1,115 @@
+
+@import url(https://fonts.google.com/specimen/Poppins);
+
+body {
+    background-color: rgb(252, 250, 246);
+    padding: 50px 0px;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    height: 18vh;
+    /* border: 2px solid black; */
+    padding: 0;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.master {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    height: 64vh;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+
+h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+p{
+    font-size: 10px;
+    color: hsl(212, 6%, 44%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head1 {
+    color: hsl(212, 6%, 44%);
+    font-weight: 400;
+}
+
+.head2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 500;
+}
+
+.par1 {
+    color: hsl(234, 12%, 34%);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.block1, .block2, .block3, .block4 {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    text-align: left;
+    box-shadow: 0px 10px 20px hsla(207, 80%, 68%, 0.2);
+}
+
+
+.block1 {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    left: 0;
+}
+
+.block2 {
+    border-top: 3px solid hsl(0, 78%, 62%);
+    top: 25px;
+}
+
+.block3 {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    right: 0;
+}
+
+.block4 {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    bottom: 15px;
+}
+
+.images {
+    position: relative;
+    margin-top: 40px;
+}
+
+.images img {
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+}
