@@ -2,7 +2,7 @@
 @import url(https://fonts.google.com/specimen/Poppins);
 
 body {
-    background-color: rgb(252, 250, 246);
+    background-color: #FAFAFA;
     padding: 50px 0px;
     font-family: "poppins", sans-serif;
     display: flex;
@@ -72,7 +72,7 @@ p{
 .block1, .block2, .block3, .block4 {
     padding: 10px 30px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #FFFFFF;
     width: 200px;
     height: 180px;
     position: absolute;
@@ -112,4 +112,52 @@ p{
     right: 5px;
     width: 40px;
     height: 40px;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 30px ;
+        text-align: center;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .par1 {
+        font-size: 15px;
+        width: 90%;
+        margin: auto;
+        margin: 20px;
+        
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        
+    }
+
+    .block1, .block2, .block3, .block4 {
+        position: static;
+        margin: 20px 0px;
+        width: 80%;
+        height: 250px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .images img {
+        width: 50px;
+        height: 50px;
+        bottom: -40px;
+    }
 }
